@@ -6,7 +6,7 @@
         {
             FuelCar fuelCar = new FuelCar();
             Console.WriteLine(fuelCar.brand + ", " + fuelCar.model + ", " + fuelCar.licensePlate + ", " + fuelCar.isEngineOn + ", " + fuelCar.odometer + ", " + fuelCar.fuelLevel + ", " + fuelCar.tankCapacity + ", " + fuelCar.kmPerLiter);
-            fuelCar.Drive();
+            fuelCar.Refuel(20);
 
             ElectricCar electricCar = new ElectricCar();
             Console.WriteLine(electricCar.brand + ", " + electricCar.model + ", " + electricCar.licensePlate + ", " + electricCar.isEngineOn + ", " + electricCar.odometer + ", " + electricCar.batteryLevel + ", " + electricCar.batteryCapacity + ", " + electricCar.kmPerKWh);
@@ -59,15 +59,44 @@
 
         class FuelCar : Car
         {
-            public double fuelLevel = 30;
+            public double fuelLevel = 0;
             public double tankCapacity = 50;
             public double kmPerLiter = 14.6;
             public double fuelPrice = 10.0;
 
             
+            
 
             public void Refuel(double amount)
             {
+                {
+                    //Hvis fuel er nul
+                    if (fuelLevel == 0)
+                    {
+                        Console.WriteLine("Warning: Low fuel - Please refuel: ");
+                        amount = Convert.ToDouble(Console.ReadLine());
+                        StopEngine();
+                    }
+
+                    // Må ikke være mindre end nul
+                    if (amount <= 0)
+                    {
+                        Console.WriteLine("Error: Amount must be positive.");
+                    }
+                    //amount må ikke overskride capacitet
+                    else if (fuelLevel + amount > tankCapacity)
+                    {
+                        Console.WriteLine($"Error: Cannot add {amount} liters. Tank capacity is {tankCapacity} liters, current level is {fuelLevel} liters.");
+                    }
+                    //overblik
+                    else
+                    {
+                        fuelLevel += amount;
+                        Console.WriteLine($"Added {amount} liters. New fuel level: {fuelLevel} liters.");
+                        Console.WriteLine($"The fuel costs {fuelPrice} per liter and totals to {fuelPrice * amount} DKK");
+                    }
+                }
+
 
             }
 
