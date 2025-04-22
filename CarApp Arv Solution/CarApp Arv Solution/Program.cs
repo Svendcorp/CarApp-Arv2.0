@@ -6,11 +6,11 @@
         {
             FuelCar fuelCar = new FuelCar();
             Console.WriteLine(fuelCar.brand + ", " + fuelCar.model + ", " + fuelCar.licensePlate + ", " + fuelCar.isEngineOn + ", " + fuelCar.odometer + ", " + fuelCar.fuelLevel + ", " + fuelCar.tankCapacity + ", " + fuelCar.kmPerLiter);
-            fuelCar.Drive();
+            
 
             ElectricCar electricCar = new ElectricCar();
             Console.WriteLine(electricCar.brand + ", " + electricCar.model + ", " + electricCar.licensePlate + ", " + electricCar.isEngineOn + ", " + electricCar.odometer + ", " + electricCar.batteryLevel + ", " + electricCar.batteryCapacity + ", " + electricCar.kmPerKWh);
-
+            electricCar.Charge(20);
         }
 
         class Car
@@ -92,13 +92,25 @@
             public double batteryCapacity = 100;
             public double kmPerKWh = 6;
             public double kWhPrice = 3.0;
-
+            public double chargingAmount;
 
             public void Charge(double amount)
             {
                 Console.WriteLine(batteryLevel);
-                Console.WriteLine("You can charge the car " + (batteryCapacity-batteryLevel) + " %, and it wil cost you " + (batteryCapacity-batteryLevel*kWhPrice) + " kr.");
-                batteryLevel = 100;
+                Console.WriteLine("You can charge the car " + (batteryCapacity-batteryLevel) + " %, and it wil cost you " + (batteryCapacity-batteryLevel*kWhPrice) + " DDK.");
+
+                Console.WriteLine("How much power would you like to charge the battery to?: ");
+                chargingAmount = Convert.ToDouble(Console.ReadLine());
+
+                if (chargingAmount + batteryLevel > batteryCapacity)
+                {
+                    Console.WriteLine("You can't charge a battery over 100%!!!");
+                }
+                else
+                {
+                    chargingAmount += batteryCapacity;
+                }
+
 
             }
 
