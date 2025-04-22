@@ -1,0 +1,15 @@
+C:\Users\proxi\Documents\Datamatiker Studie\VS code directory\CarApp-Arv2.0\CarApp Arv Solution\CarApp Arv Solution\obj\Debug\net8.0\CarApp Arv Solution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\proxi\Documents\Datamatiker Studie\VS code directory\CarApp-Arv2.0\CarApp Arv Solution\CarApp Arv Solution\obj\Debug\net8.0\CarApp Arv Solution.AssemblyInfoInputs.cache
+C:\Users\proxi\Documents\Datamatiker Studie\VS code directory\CarApp-Arv2.0\CarApp Arv Solution\CarApp Arv Solution\obj\Debug\net8.0\CarApp Arv Solution.AssemblyInfo.cs
+C:\Users\proxi\Documents\Datamatiker Studie\VS code directory\CarApp-Arv2.0\CarApp Arv Solution\CarApp Arv Solution\obj\Debug\net8.0\CarApp Arv Solution.csproj.CoreCompileInputs.cache
+C:\Users\proxi\Documents\Datamatiker Studie\VS code directory\CarApp-Arv2.0\CarApp Arv Solution\CarApp Arv Solution\obj\Debug\net8.0\CarApp Arv Solution.sourcelink.json
+C:\Users\proxi\Documents\Datamatiker Studie\VS code directory\CarApp-Arv2.0\CarApp Arv Solution\CarApp Arv Solution\bin\Debug\net8.0\CarApp Arv Solution.exe
+C:\Users\proxi\Documents\Datamatiker Studie\VS code directory\CarApp-Arv2.0\CarApp Arv Solution\CarApp Arv Solution\bin\Debug\net8.0\CarApp Arv Solution.deps.json
+C:\Users\proxi\Documents\Datamatiker Studie\VS code directory\CarApp-Arv2.0\CarApp Arv Solution\CarApp Arv Solution\bin\Debug\net8.0\CarApp Arv Solution.runtimeconfig.json
+C:\Users\proxi\Documents\Datamatiker Studie\VS code directory\CarApp-Arv2.0\CarApp Arv Solution\CarApp Arv Solution\bin\Debug\net8.0\CarApp Arv Solution.dll
+C:\Users\proxi\Documents\Datamatiker Studie\VS code directory\CarApp-Arv2.0\CarApp Arv Solution\CarApp Arv Solution\bin\Debug\net8.0\CarApp Arv Solution.pdb
+C:\Users\proxi\Documents\Datamatiker Studie\VS code directory\CarApp-Arv2.0\CarApp Arv Solution\CarApp Arv Solution\obj\Debug\net8.0\CarApp Arv Solution.dll
+C:\Users\proxi\Documents\Datamatiker Studie\VS code directory\CarApp-Arv2.0\CarApp Arv Solution\CarApp Arv Solution\obj\Debug\net8.0\refint\CarApp Arv Solution.dll
+C:\Users\proxi\Documents\Datamatiker Studie\VS code directory\CarApp-Arv2.0\CarApp Arv Solution\CarApp Arv Solution\obj\Debug\net8.0\CarApp Arv Solution.pdb
+C:\Users\proxi\Documents\Datamatiker Studie\VS code directory\CarApp-Arv2.0\CarApp Arv Solution\CarApp Arv Solution\obj\Debug\net8.0\CarApp Arv Solution.genruntimeconfig.cache
+C:\Users\proxi\Documents\Datamatiker Studie\VS code directory\CarApp-Arv2.0\CarApp Arv Solution\CarApp Arv Solution\obj\Debug\net8.0\ref\CarApp Arv Solution.dll
