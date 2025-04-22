@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\buch_\\OneDrive\\Skrivebord\\Github Projekter\\CarApp-Arv2.0\\CarApp Arv Solution\\CarApp Arv Solution\\CarApp Arv Solution.csproj": {}
+    "C:\\Users\\proxi\\Documents\\Datamatiker Studie\\VS code directory\\CarApp-Arv2.0\\CarApp Arv Solution\\CarApp Arv Solution\\CarApp Arv Solution.csproj": {}
   },
   "projects": {
-    "C:\\Users\\buch_\\OneDrive\\Skrivebord\\Github Projekter\\CarApp-Arv2.0\\CarApp Arv Solution\\CarApp Arv Solution\\CarApp Arv Solution.csproj": {
+    "C:\\Users\\proxi\\Documents\\Datamatiker Studie\\VS code directory\\CarApp-Arv2.0\\CarApp Arv Solution\\CarApp Arv Solution\\CarApp Arv Solution.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\buch_\\OneDrive\\Skrivebord\\Github Projekter\\CarApp-Arv2.0\\CarApp Arv Solution\\CarApp Arv Solution\\CarApp Arv Solution.csproj",
+        "projectUniqueName": "C:\\Users\\proxi\\Documents\\Datamatiker Studie\\VS code directory\\CarApp-Arv2.0\\CarApp Arv Solution\\CarApp Arv Solution\\CarApp Arv Solution.csproj",
         "projectName": "CarApp Arv Solution",
-        "projectPath": "C:\\Users\\buch_\\OneDrive\\Skrivebord\\Github Projekter\\CarApp-Arv2.0\\CarApp Arv Solution\\CarApp Arv Solution\\CarApp Arv Solution.csproj",
-        "packagesPath": "C:\\Users\\buch_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\buch_\\OneDrive\\Skrivebord\\Github Projekter\\CarApp-Arv2.0\\CarApp Arv Solution\\CarApp Arv Solution\\obj\\",
+        "projectPath": "C:\\Users\\proxi\\Documents\\Datamatiker Studie\\VS code directory\\CarApp-Arv2.0\\CarApp Arv Solution\\CarApp Arv Solution\\CarApp Arv Solution.csproj",
+        "packagesPath": "C:\\Users\\proxi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\proxi\\Documents\\Datamatiker Studie\\VS code directory\\CarApp-Arv2.0\\CarApp Arv Solution\\CarApp Arv Solution\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\buch_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\proxi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
