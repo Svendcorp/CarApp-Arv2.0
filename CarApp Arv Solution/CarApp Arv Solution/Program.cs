@@ -6,6 +6,7 @@
         {
             FuelCar fuelCar = new FuelCar();
             Console.WriteLine(fuelCar.brand + ", " + fuelCar.model + ", " + fuelCar.licensePlate + ", " + fuelCar.isEngineOn + ", " + fuelCar.odometer + ", " + fuelCar.fuelLevel + ", " + fuelCar.tankCapacity + ", " + fuelCar.kmPerLiter);
+            fuelCar.Drive();
 
             ElectricCar electricCar = new ElectricCar();
             Console.WriteLine(electricCar.brand + ", " + electricCar.model + ", " + electricCar.licensePlate + ", " + electricCar.isEngineOn + ", " + electricCar.odometer + ", " + electricCar.batteryLevel + ", " + electricCar.batteryCapacity + ", " + electricCar.kmPerKWh);
@@ -61,9 +62,9 @@
             public double fuelLevel = 30;
             public double tankCapacity = 50;
             public double kmPerLiter = 14.6;
+            public double fuelPrice = 10.0;
 
-            //Contructor
-
+            
 
             public void Refuel(double amount)
             {
@@ -73,6 +74,8 @@
 
             public override void Drive(double distance)
             {
+                Console.WriteLine("What is the length of your trip?: ");
+                distance = Convert.ToDouble(Console.ReadLine());
                 odometer += distance;
 
             }
@@ -85,6 +88,7 @@
             public double batteryLevel = 80;
             public double batteryCapacity = 100;
             public double kmPerKWh = 6;
+            public double kWhPrice = 3.0;
 
 
             public void Charge(double amount)
