@@ -6,14 +6,28 @@ using System.Threading.Tasks;
 
 namespace CarApp___Arv
 {
-    internal class Car
+/*internal class Car
     {
 
-        string brand = ;
-        string model = ;
-        string licensePlate = ;
-        bool isEngineOn = false;
-        int odometer = 0;
+        public string brand { get; set; }
+        public string model { get; set; }
+        public string licensePlate { get; set; }
+        public bool isEngineOn = false;
+        public int odometer {  get; set; }
+
+
+
+        public BaseDescription(string brand, string model, string licensePlate, bool isEngineOn, int odometer)
+        {
+            brand = brand;
+            model = model;
+            licensePlate = licensePlate;
+            isEngineOn = isEngineOn;
+            odometer = odometer;
+        }
+
+        public string BaseDescription();
+
 
         void StartEngine()
         {
@@ -24,10 +38,12 @@ namespace CarApp___Arv
         {
 
         }
-
+        /*
         virtual void Drive(double distance)
         {
 
         }
-    }
+        */
+    
+
 }

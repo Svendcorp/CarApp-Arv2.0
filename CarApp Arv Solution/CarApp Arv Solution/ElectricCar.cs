@@ -6,22 +6,26 @@ using System.Threading.Tasks;
 
 namespace CarApp___Arv
 {
-    internal class ElectricCar
+    /*internal class ElectricCar : Car
     {
-        double batteryLevel;
-        double batteryCapacity;
-        double kmPerKWh;
+        public double batteryLevel {  get; set; }
+        public double batteryCapacity {  get; set; }
+        public double kmPerKWh {  get; set; }
 
-
+        public override string BaseDescription()
+        {
+            return BaseDescription() + ", " + batteryLevel;
+        }
+        
         public void Charge()
         {
 
         }
-
+        /*
         override public void Drive()
         {
 
         }
-
-    }
+        */
+    
 }
