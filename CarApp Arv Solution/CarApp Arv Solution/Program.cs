@@ -50,6 +50,9 @@
             public virtual void Drive(double distance)
             {
 
+                Console.WriteLine("What is the length of your trip?: ");
+                distance = Convert.ToDouble(Console.ReadLine());
+                odometer += distance;
             }
 
         }
@@ -93,12 +96,23 @@
 
             public void Charge(double amount)
             {
+                Console.WriteLine(batteryLevel);
+                Console.WriteLine("You can charge the car " + (batteryCapacity-batteryLevel) + " %, and it wil cost you " + (batteryCapacity-batteryLevel*kWhPrice) + " kr.");
+                batteryLevel = 100;
 
             }
 
             public override void Drive(double distance)
             {
+                Console.WriteLine("What is the length of your trip?: ");
+                distance = Convert.ToDouble(Console.ReadLine());
+
+                batteryLevel -= distance / kmPerKWh;
+
                 odometer += distance;
+
+                Console.WriteLine(batteryLevel);
+                Console.WriteLine(odometer);
             }
 
         }
