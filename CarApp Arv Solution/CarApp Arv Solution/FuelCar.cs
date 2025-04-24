@@ -5,29 +5,46 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CarApp___Arv
-{ 
-}
-/*
+{
+
     internal class FuelCar : Car
     {
-        public double fuelLevel {  get; set; }
-        public double tankCapacity {  get; set; }
-        public double kmOerLiter {  get; set; }
+        public double fuelLevel = 30;
+        public double tankCapacity = 50;
+        public double kmPerLiter = 14.6;
+        public double fuelPrice = 10.0;
+        public double reFuel;
 
-        public void Refuel()
+        public void Refuel(double amount)
         {
+            Console.WriteLine(fuelLevel);
+            Console.WriteLine("How many liters of fuel would you like to buy?: ");
+            reFuel = Convert.ToDouble(Console.ReadLine());
+
+            if (reFuel < 50)
+            {
+                fuelLevel += reFuel;
+            }
+
+            else
+            {
+                Console.WriteLine("Tank is already full!!!");
+            }
+
+            Console.WriteLine(fuelLevel);
 
         }
 
-        
-        override public void Drive(double distance)
-        {
 
-        }
-        
-        public override string BaseDescription()
+        public override void Drive(double distance)
         {
-            return BaseDescription() + ", " + fuelLevel;
+            Console.WriteLine("What is the length of your trip?: ");
+            distance = Convert.ToDouble(Console.ReadLine());
+
+            fuelLevel -= distance / kmPerLiter;
+            odometer += distance;
+            Console.WriteLine("The tank now has " + Math.Round(fuelLevel, 2) + " liters of fuel.");
+            Console.WriteLine("your new driven distance is " + odometer + " km.");
         }
     }
-*/
+}

@@ -6,44 +6,54 @@ using System.Threading.Tasks;
 
 namespace CarApp___Arv
 {
-/*internal class Car
+    abstract internal class Car
     {
-
-        public string brand { get; set; }
-        public string model { get; set; }
-        public string licensePlate { get; set; }
+        public string brand = "Toyota";
+        public string model = "Corrola";
+        public string licensePlate = "GG53289";
         public bool isEngineOn = false;
-        public int odometer {  get; set; }
+        public double odometer = 0;
 
 
-
-        public BaseDescription(string brand, string model, string licensePlate, bool isEngineOn, int odometer)
+        public void StartEnigine(bool isEngineOn)
         {
-            brand = brand;
-            model = model;
-            licensePlate = licensePlate;
-            isEngineOn = isEngineOn;
-            odometer = odometer;
-        }
-
-        public string BaseDescription();
-
-
-        void StartEngine()
-        {
+            if (isEngineOn == true)
+            {
+                Console.WriteLine("The Engine is already on!");
+            }
+            else
+            {
+                isEngineOn = true;
+                Console.WriteLine("The Engine is now on!");
+            }
 
         }
 
-        void StopEngine()
+        public void StopEngine(bool isEngineOn)
+        {
+            if (!isEngineOn == false)
+            {
+                Console.WriteLine("The Engine is already turned off!");
+            }
+            else
+            {
+                isEngineOn = false;
+                Console.WriteLine("The Engine is now off!");
+            }
+        }
+
+        public virtual void Drive(double distance)
         {
 
-        }
-        /*
-        virtual void Drive(double distance)
-        {
+            Console.WriteLine("What is the length of your trip?: ");
+            distance = Convert.ToDouble(Console.ReadLine());
+            odometer += distance;
 
         }
-        */
+
+    }
+
+}   
     
 
-}
+
