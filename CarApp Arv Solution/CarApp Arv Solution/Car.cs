@@ -8,12 +8,19 @@ namespace CarApp___Arv
 {
     abstract internal class Car
     {
-        public string brand = "Toyota";
-        public string model = "Corrola";
-        public string licensePlate = "GG53289";
-        public bool isEngineOn = false;
-        public double odometer = 0;
+        public string brand {  get; set; }
+        public string model { get; set; }
+        public string licensePlate {  get; set; }
+        public bool isEngineOn { get; set; }
+        public double odometer { get; set; }
 
+
+        
+
+        public override string ToString()
+        {
+            return $"{brand} {model}, {licensePlate}, {isEngineOn}, Km: {odometer}";
+        }
 
         public void StartEnigine(bool isEngineOn)
         {

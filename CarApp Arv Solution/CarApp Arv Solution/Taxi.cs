@@ -18,6 +18,15 @@ namespace CarApp___Arv
 
         public double calculateFare; //(PricePerKm*kmDriven)+(pricePerMinutes*minutesSpend)+startPrice
 
+        public Taxi(string Brand, string Model, string LicensePlate, bool IsEngineOn, double Odometer)
+        {
+            brand = Brand;
+            model = Model;
+            licensePlate = LicensePlate;
+            isEngineOn = IsEngineOn;
+            odometer = Odometer;
+        }
+
         public void StartMeter(bool meterStarted)
         {
             if (meterStarted == true)

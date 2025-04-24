@@ -14,6 +14,14 @@ namespace CarApp___Arv
         public double kWhPrice = 3.0;
         public double chargingAmount;
 
+        public ElectricCar(string Brand, string Model, string LicensePlate, bool IsEngineOn, double Odometer)
+        {
+            brand = Brand;
+            model = Model;
+            licensePlate = LicensePlate;
+            isEngineOn = IsEngineOn;
+            odometer = Odometer;
+        }
 
         public void Charge(double amount)
         {

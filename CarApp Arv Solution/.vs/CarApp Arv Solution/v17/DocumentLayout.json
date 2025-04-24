@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{C5D0EB48-C0D5-4A8E-9B91-08E9ED1CD06C}|CarApp Arv Solution\\CarApp Arv Solution.csproj|solutionrelative:carapp arv solution\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5D0EB48-C0D5-4A8E-9B91-08E9ED1CD06C}|CarApp Arv Solution\\CarApp Arv Solution.csproj|c:\\users\\buch_\\onedrive\\skrivebord\\github projekter\\carapp-arv2.0\\carapp arv solution\\carapp arv solution\\taxi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5D0EB48-C0D5-4A8E-9B91-08E9ED1CD06C}|CarApp Arv Solution\\CarApp Arv Solution.csproj|solutionrelative:carapp arv solution\\taxi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5D0EB48-C0D5-4A8E-9B91-08E9ED1CD06C}|CarApp Arv Solution\\CarApp Arv Solution.csproj|c:\\users\\buch_\\onedrive\\skrivebord\\github projekter\\carapp-arv2.0\\carapp arv solution\\carapp arv solution\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5D0EB48-C0D5-4A8E-9B91-08E9ED1CD06C}|CarApp Arv Solution\\CarApp Arv Solution.csproj|solutionrelative:carapp arv solution\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5D0EB48-C0D5-4A8E-9B91-08E9ED1CD06C}|CarApp Arv Solution\\CarApp Arv Solution.csproj|c:\\users\\buch_\\onedrive\\skrivebord\\github projekter\\carapp-arv2.0\\carapp arv solution\\carapp arv solution\\fuelcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5D0EB48-C0D5-4A8E-9B91-08E9ED1CD06C}|CarApp Arv Solution\\CarApp Arv Solution.csproj|solutionrelative:carapp arv solution\\fuelcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5D0EB48-C0D5-4A8E-9B91-08E9ED1CD06C}|CarApp Arv Solution\\CarApp Arv Solution.csproj|c:\\users\\buch_\\onedrive\\skrivebord\\github projekter\\carapp-arv2.0\\carapp arv solution\\carapp arv solution\\taxi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5D0EB48-C0D5-4A8E-9B91-08E9ED1CD06C}|CarApp Arv Solution\\CarApp Arv Solution.csproj|solutionrelative:carapp arv solution\\taxi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5D0EB48-C0D5-4A8E-9B91-08E9ED1CD06C}|CarApp Arv Solution\\CarApp Arv Solution.csproj|c:\\users\\buch_\\onedrive\\skrivebord\\github projekter\\carapp-arv2.0\\carapp arv solution\\carapp arv solution\\electriccar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5D0EB48-C0D5-4A8E-9B91-08E9ED1CD06C}|CarApp Arv Solution\\CarApp Arv Solution.csproj|solutionrelative:carapp arv solution\\electriccar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5D0EB48-C0D5-4A8E-9B91-08E9ED1CD06C}|CarApp Arv Solution\\CarApp Arv Solution.csproj|c:\\users\\buch_\\onedrive\\skrivebord\\github projekter\\carapp-arv2.0\\carapp arv solution\\carapp arv solution\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5D0EB48-C0D5-4A8E-9B91-08E9ED1CD06C}|CarApp Arv Solution\\CarApp Arv Solution.csproj|solutionrelative:carapp arv solution\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5D0EB48-C0D5-4A8E-9B91-08E9ED1CD06C}|CarApp Arv Solution\\CarApp Arv Solution.csproj|c:\\users\\buch_\\onedrive\\skrivebord\\github projekter\\carapp-arv2.0\\carapp arv solution\\carapp arv solution\\fuelcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5D0EB48-C0D5-4A8E-9B91-08E9ED1CD06C}|CarApp Arv Solution\\CarApp Arv Solution.csproj|solutionrelative:carapp arv solution\\fuelcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,13 +66,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Taxi.cs",
               "DocumentMoniker": "C:\\Users\\buch_\\OneDrive\\Skrivebord\\Github Projekter\\CarApp-Arv2.0\\CarApp Arv Solution\\CarApp Arv Solution\\Taxi.cs",
               "RelativeDocumentMoniker": "CarApp Arv Solution\\Taxi.cs",
               "ToolTip": "C:\\Users\\buch_\\OneDrive\\Skrivebord\\Github Projekter\\CarApp-Arv2.0\\CarApp Arv Solution\\CarApp Arv Solution\\Taxi.cs",
               "RelativeToolTip": "CarApp Arv Solution\\Taxi.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwDUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T09:22:07.784Z",
               "EditorCaption": ""
@@ -85,33 +85,33 @@
               "RelativeDocumentMoniker": "CarApp Arv Solution\\ElectricCar.cs",
               "ToolTip": "C:\\Users\\buch_\\OneDrive\\Skrivebord\\Github Projekter\\CarApp-Arv2.0\\CarApp Arv Solution\\CarApp Arv Solution\\ElectricCar.cs",
               "RelativeToolTip": "CarApp Arv Solution\\ElectricCar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T09:12:42.427Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "FuelCar.cs",
               "DocumentMoniker": "C:\\Users\\buch_\\OneDrive\\Skrivebord\\Github Projekter\\CarApp-Arv2.0\\CarApp Arv Solution\\CarApp Arv Solution\\FuelCar.cs",
               "RelativeDocumentMoniker": "CarApp Arv Solution\\FuelCar.cs",
               "ToolTip": "C:\\Users\\buch_\\OneDrive\\Skrivebord\\Github Projekter\\CarApp-Arv2.0\\CarApp Arv Solution\\CarApp Arv Solution\\FuelCar.cs",
               "RelativeToolTip": "CarApp Arv Solution\\FuelCar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T09:12:16.339Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Car.cs",
               "DocumentMoniker": "C:\\Users\\buch_\\OneDrive\\Skrivebord\\Github Projekter\\CarApp-Arv2.0\\CarApp Arv Solution\\CarApp Arv Solution\\Car.cs",
               "RelativeDocumentMoniker": "CarApp Arv Solution\\Car.cs",
               "ToolTip": "C:\\Users\\buch_\\OneDrive\\Skrivebord\\Github Projekter\\CarApp-Arv2.0\\CarApp Arv Solution\\CarApp Arv Solution\\Car.cs",
               "RelativeToolTip": "CarApp Arv Solution\\Car.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T07:40:43.145Z",
               "EditorCaption": ""
@@ -124,7 +124,7 @@
               "RelativeDocumentMoniker": "CarApp Arv Solution\\Program.cs",
               "ToolTip": "C:\\Users\\buch_\\OneDrive\\Skrivebord\\Github Projekter\\CarApp-Arv2.0\\CarApp Arv Solution\\CarApp Arv Solution\\Program.cs",
               "RelativeToolTip": "CarApp Arv Solution\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T08:53:07.45Z",
               "EditorCaption": ""

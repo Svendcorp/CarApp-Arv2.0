@@ -15,6 +15,17 @@ namespace CarApp___Arv
         public double fuelPrice = 10.0;
         public double reFuel;
 
+
+        public FuelCar(string Brand, string Model, string LicensePlate, bool IsEngineOn, double Odometer)
+        {
+            brand = Brand;
+            model = Model;
+            licensePlate = LicensePlate;
+            isEngineOn = IsEngineOn;
+            odometer = Odometer;
+        }
+
+
         public void Refuel(double amount)
         {
             Console.WriteLine(fuelLevel);
