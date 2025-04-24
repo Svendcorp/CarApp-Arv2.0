@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CarApp___Arv
 {
-    internal class Taxi : Car
+    internal class Taxi : Car, IEnergy
     {
         public double startPrice = 50;
         public double pricePerKm = 5;
@@ -17,6 +17,9 @@ namespace CarApp___Arv
         public double minutesSpend;
 
         public double calculateFare; //(PricePerKm*kmDriven)+(pricePerMinutes*minutesSpend)+startPrice
+
+        public double EnergyLevel { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public double MaxEnergy { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public Taxi(string Brand, string Model, string LicensePlate, bool IsEngineOn, double Odometer)
         {
@@ -31,12 +34,12 @@ namespace CarApp___Arv
         {
             if (meterStarted == true)
             {
-                Console.WriteLine("The meter is already started.");
+                Console.WriteLine("The meter is already running.");
             }
             else
             {
                 meterStarted = true;
-                Console.WriteLine("The meter is now started");
+                Console.WriteLine("The meter has now started");
             }
         }
 
@@ -62,6 +65,14 @@ namespace CarApp___Arv
             calculateFare = startPrice + (kmDriven*PricePerKm) + (pricePerMinute*minutesSpend);
         }
 
+        public void Refill(double amount)
+        {
+            throw new NotImplementedException();
+        }
 
+        public void UseEnergy(double distance)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

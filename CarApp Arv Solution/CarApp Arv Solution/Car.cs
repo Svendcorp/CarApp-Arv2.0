@@ -11,8 +11,8 @@ namespace CarApp___Arv
         public string brand {  get; set; }
         public string model { get; set; }
         public string licensePlate {  get; set; }
-        public bool isEngineOn { get; set; }
-        public double odometer { get; set; }
+        public bool isEngineOn;
+        public double odometer;
 
 
         

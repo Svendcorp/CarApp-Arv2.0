@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace CarApp___Arv
 {
 
-    internal class FuelCar : Car
+    internal class FuelCar : Car, IEnergy
     {
         public double fuelLevel = 30;
         public double tankCapacity = 50;
@@ -15,6 +15,8 @@ namespace CarApp___Arv
         public double fuelPrice = 10.0;
         public double reFuel;
 
+        public double EnergyLevel { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public double MaxEnergy { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public FuelCar(string Brand, string Model, string LicensePlate, bool IsEngineOn, double Odometer)
         {
@@ -56,6 +58,16 @@ namespace CarApp___Arv
             odometer += distance;
             Console.WriteLine("The tank now has " + Math.Round(fuelLevel, 2) + " liters of fuel.");
             Console.WriteLine("your new driven distance is " + odometer + " km.");
+        }
+
+        public void Refill(double amount)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void UseEnergy(double distance)
+        {
+            throw new NotImplementedException();
         }
     }
 }

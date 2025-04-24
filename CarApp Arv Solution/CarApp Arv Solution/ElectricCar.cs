@@ -27,6 +27,9 @@ namespace CarApp___Arv
 
         public double MaxEnergy => throw new NotImplementedException();
 
+        double IEnergy.EnergyLevel { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        double IEnergy.MaxEnergy { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
         public void Charge(double amount)
         {
             Console.WriteLine(batteryLevel);

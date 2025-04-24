@@ -8,12 +8,12 @@ namespace CarApp___Arv
 {
     internal interface IEnergy
     {
-        double EnergyLevel { get; }
+        double EnergyLevel { get; set; }
 
-        double MaxEnergy { get; }
+        double MaxEnergy { get; set; }
 
         void Refill(double amount);
 
-        void UseEnergy(double kilometers);
+        void UseEnergy(double distance);
     }
 }
