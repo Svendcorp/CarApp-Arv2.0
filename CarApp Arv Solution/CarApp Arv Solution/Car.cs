@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CarApp___Arv
 {
-    abstract internal class Car
+    abstract internal class Car : IDrivable
     {
         public string brand {  get; set; }
         public string model { get; set; }
@@ -58,6 +58,15 @@ namespace CarApp___Arv
 
         }
 
+        public void StartEngine()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void StopEngine()
+        {
+            throw new NotImplementedException();
+        }
     }
 
 }   

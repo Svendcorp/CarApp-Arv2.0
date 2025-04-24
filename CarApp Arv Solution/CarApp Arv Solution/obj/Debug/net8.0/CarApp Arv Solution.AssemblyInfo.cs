@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarApp Arv Solution")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9dbcaed0d53339f664d57a675a978ac8540ff4f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b6fed2e4a5616cf852e1ef2ab0a67c2da3e166b")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarApp Arv Solution")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarApp Arv Solution")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

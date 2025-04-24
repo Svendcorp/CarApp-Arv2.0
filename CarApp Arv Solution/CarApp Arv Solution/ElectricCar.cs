@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CarApp___Arv
 {
-    internal class ElectricCar : Car
+    internal class ElectricCar : Car, IEnergy
     {
         public double batteryLevel = 80;
         public double batteryCapacity = 100;
@@ -22,6 +22,10 @@ namespace CarApp___Arv
             isEngineOn = IsEngineOn;
             odometer = Odometer;
         }
+
+        public double EnergyLevel => throw new NotImplementedException();
+
+        public double MaxEnergy => throw new NotImplementedException();
 
         public void Charge(double amount)
         {
@@ -61,6 +65,16 @@ namespace CarApp___Arv
 
             Console.WriteLine("The battery level is now " + Math.Round(batteryLevel, 2) + "%.");
             Console.WriteLine("your new driven distance is " + odometer + " km.");
+        }
+
+        public void Refill(double amount)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void UseEnergy(double kilometers)
+        {
+            throw new NotImplementedException();
         }
     }
         
