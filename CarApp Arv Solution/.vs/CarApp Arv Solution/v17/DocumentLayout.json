@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{C5D0EB48-C0D5-4A8E-9B91-08E9ED1CD06C}|CarApp Arv Solution\\CarApp Arv Solution.csproj|c:\\users\\buch_\\onedrive\\skrivebord\\github projekter\\carapp-arv2.0\\carapp arv solution\\carapp arv solution\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5D0EB48-C0D5-4A8E-9B91-08E9ED1CD06C}|CarApp Arv Solution\\CarApp Arv Solution.csproj|solutionrelative:carapp arv solution\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5D0EB48-C0D5-4A8E-9B91-08E9ED1CD06C}|CarApp Arv Solution\\CarApp Arv Solution.csproj|c:\\users\\buch_\\onedrive\\skrivebord\\github projekter\\carapp-arv2.0\\carapp arv solution\\carapp arv solution\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5D0EB48-C0D5-4A8E-9B91-08E9ED1CD06C}|CarApp Arv Solution\\CarApp Arv Solution.csproj|solutionrelative:carapp arv solution\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,13 +54,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\buch_\\OneDrive\\Skrivebord\\Github Projekter\\CarApp-Arv2.0\\CarApp Arv Solution\\CarApp Arv Solution\\Car.cs",
+              "RelativeDocumentMoniker": "CarApp Arv Solution\\Car.cs",
+              "ToolTip": "C:\\Users\\buch_\\OneDrive\\Skrivebord\\Github Projekter\\CarApp-Arv2.0\\CarApp Arv Solution\\CarApp Arv Solution\\Car.cs",
+              "RelativeToolTip": "CarApp Arv Solution\\Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T07:40:43.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\buch_\\OneDrive\\Skrivebord\\Github Projekter\\CarApp-Arv2.0\\CarApp Arv Solution\\CarApp Arv Solution\\Program.cs",
               "RelativeDocumentMoniker": "CarApp Arv Solution\\Program.cs",
               "ToolTip": "C:\\Users\\buch_\\OneDrive\\Skrivebord\\Github Projekter\\CarApp-Arv2.0\\CarApp Arv Solution\\CarApp Arv Solution\\Program.cs",
               "RelativeToolTip": "CarApp Arv Solution\\Program.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAuwHEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwG0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T08:53:07.45Z",
               "EditorCaption": ""
