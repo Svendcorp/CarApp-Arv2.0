@@ -43,8 +43,8 @@ namespace CarApp___Arv
 
         void ICarRepository.AddCar(Car car)
         {
-            List<Car> car = GetAllCars().ToList();
-            car.id = car.Any() ? car.Max(p => p.id) + 1 : 1;
+            List<Car> cars = GetAllCars().ToList();
+            car.id = cars.Any() ? cars.Max(p => p.id) + 1 : 1;
             try
             {
                 File.AppendAllText(_CarFilePath, car.ToFileString() + Environment.NewLine);
@@ -57,9 +57,7 @@ namespace CarApp___Arv
         void ICarRepository.UpdateCar(Car car)
         {
             List<Car> cars = GetAllCars().ToList();
-
-
-            int index = cars.FindIndex(p => p.Id == car.Id);
+            int index = cars.FindIndex(p => p.id == car.id);
             if (index != -1)
             {
                 cars[index] = car;
@@ -69,7 +67,7 @@ namespace CarApp___Arv
         void ICarRepository.DeleteCar(int id)
         {
             List<Car> cars = GetAllCars().ToList();
-            cars.RemoveAll(p => p.Id == id);
+            cars.RemoveAll(p => p.id == id);
             RewriteFile(cars);
         }
 

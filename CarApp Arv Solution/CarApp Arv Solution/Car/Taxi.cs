@@ -21,10 +21,11 @@ namespace CarApp___Arv
         public double EnergyLevel { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public double MaxEnergy { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
-        public Taxi(string Brand, string Model, string LicensePlate, bool IsEngineOn, double Odometer)
+        public Taxi(string Brand, string Model, int Id, bool IsEngineOn, int Odometer)
         {
             brand = Brand;
             model = Model;
+            id = Id;
             isEngineOn = IsEngineOn;
             odometer = Odometer;
         }

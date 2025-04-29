@@ -8,5 +8,11 @@ namespace CarApp___Arv
 {
     public class FileTripRepository
     {
+       
+        public void Refuel(double amount)
+        {
+           
+
+        }
     }
 }

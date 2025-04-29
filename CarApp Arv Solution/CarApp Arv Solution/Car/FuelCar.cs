@@ -18,10 +18,11 @@ namespace CarApp___Arv
         public double EnergyLevel { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public double MaxEnergy { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
-        public FuelCar(string Brand, string Model, string LicensePlate, bool IsEngineOn, double Odometer)
+        public FuelCar(string Brand, string Model, int Id, bool IsEngineOn, int Odometer)
         {
             brand = Brand;
             model = Model;
+            id = Id;
             isEngineOn = IsEngineOn;
             odometer = Odometer;
         }
@@ -54,7 +55,7 @@ namespace CarApp___Arv
             distance = Convert.ToDouble(Console.ReadLine());
 
             fuelLevel -= distance / kmPerLiter;
-            odometer += distance;
+            odometer += (int)distance;
             Console.WriteLine("The tank now has " + Math.Round(fuelLevel, 2) + " liters of fuel.");
             Console.WriteLine("your new driven distance is " + odometer + " km.");
         }

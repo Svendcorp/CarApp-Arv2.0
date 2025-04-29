@@ -9,15 +9,15 @@ namespace CarApp___Arv
     public interface IDrivable
     {
 
-        void StartEngine();
+        void StartEngine(bool isEngineOn);
 
 
-        void StopEngine();
+        void StopEngine(bool isEngineOn);
 
 
-        public virtual void Drive(double distance) { }
+        void Drive(double distance) { }
 
-        public virtual void CanDrive(double distance) { }
+        void CanDrive(double distance) { }
 
     }
 }

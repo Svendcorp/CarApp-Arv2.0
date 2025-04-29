@@ -14,17 +14,26 @@ namespace CarApp___Arv
         public double kWhPrice = 3.0;
         public double chargingAmount;
 
-        public ElectricCar(string Brand, string Model, string LicensePlate, bool IsEngineOn, double Odometer)
+        public ElectricCar(string Brand, string Model, int Id, bool IsEngineOn, int Odometer)
         {
             brand = Brand;
             model = Model;
+            id = Id;
             isEngineOn = IsEngineOn;
             odometer = Odometer;
         }
 
-        public double EnergyLevel => throw new NotImplementedException();
+        public double EnergyLevel
+            {
+                get => batteryLevel;
+                set => batteryLevel = value;
+            }
 
-        public double MaxEnergy => throw new NotImplementedException();
+        public double MaxEnergy 
+            {
+                get => batteryLevel;
+                set => batteryLevel = value;
+            }
 
         double IEnergy.EnergyLevel { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         double IEnergy.MaxEnergy { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
@@ -57,7 +66,7 @@ namespace CarApp___Arv
             if (distance < batteryLevel * kmPerKWh)
             {
                 batteryLevel -= distance / kmPerKWh;
-                odometer += distance;
+                odometer += (int)distance;
             }
             else
             {
