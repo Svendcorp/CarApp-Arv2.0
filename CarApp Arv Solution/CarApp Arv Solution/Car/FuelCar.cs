@@ -22,7 +22,6 @@ namespace CarApp___Arv
         {
             brand = Brand;
             model = Model;
-            licensePlate = LicensePlate;
             isEngineOn = IsEngineOn;
             odometer = Odometer;
         }

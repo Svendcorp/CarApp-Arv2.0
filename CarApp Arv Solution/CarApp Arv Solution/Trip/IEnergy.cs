@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CarApp___Arv
 {
-    internal interface IEnergy
+    public interface IEnergy
     {
         double EnergyLevel { get; set; }
 

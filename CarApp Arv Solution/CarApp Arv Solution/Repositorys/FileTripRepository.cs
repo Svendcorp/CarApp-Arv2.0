@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarApp_Arv_Solution
+namespace CarApp___Arv
 {
-    internal class ITripRepository
+    public class FileTripRepository
     {
     }
 }

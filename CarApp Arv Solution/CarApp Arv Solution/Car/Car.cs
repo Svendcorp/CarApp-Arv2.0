@@ -10,7 +10,8 @@ namespace CarApp___Arv
     {
         public string brand {  get; set; }
         public string model { get; set; }
-        public string licensePlate {  get; set; }
+        public int id {  get; set; }
+        
         public bool isEngineOn;
         public double odometer;
 
@@ -19,7 +20,7 @@ namespace CarApp___Arv
 
         public override string ToString()
         {
-            return $"{brand} {model}, {licensePlate}, {isEngineOn}, Km: {odometer}";
+            return $"{brand} {model}, {id}, {isEngineOn}, Km: {odometer}";
         }
 
         public void StartEnigine(bool isEngineOn)

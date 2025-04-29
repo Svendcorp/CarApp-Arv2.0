@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CarApp___Arv
 {
-    internal interface IDrivable
+    public interface IDrivable
     {
 
         void StartEngine();
