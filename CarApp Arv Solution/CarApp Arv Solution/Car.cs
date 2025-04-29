@@ -6,44 +6,70 @@ using System.Threading.Tasks;
 
 namespace CarApp___Arv
 {
-/*internal class Car
+    abstract internal class Car : IDrivable
     {
-
-        public string brand { get; set; }
+        public string brand {  get; set; }
         public string model { get; set; }
-        public string licensePlate { get; set; }
-        public bool isEngineOn = false;
-        public int odometer {  get; set; }
+        public string licensePlate {  get; set; }
+        public bool isEngineOn;
+        public double odometer;
 
 
+        
 
-        public BaseDescription(string brand, string model, string licensePlate, bool isEngineOn, int odometer)
+        public override string ToString()
         {
-            brand = brand;
-            model = model;
-            licensePlate = licensePlate;
-            isEngineOn = isEngineOn;
-            odometer = odometer;
+            return $"{brand} {model}, {licensePlate}, {isEngineOn}, Km: {odometer}";
         }
 
-        public string BaseDescription();
-
-
-        void StartEngine()
+        public void StartEnigine(bool isEngineOn)
         {
+            if (isEngineOn == true)
+            {
+                Console.WriteLine("The Engine is already on!");
+            }
+            else
+            {
+                isEngineOn = true;
+                Console.WriteLine("The Engine is now on!");
+            }
 
         }
 
-        void StopEngine()
+        public void StopEngine(bool isEngineOn)
+        {
+            if (!isEngineOn == false)
+            {
+                Console.WriteLine("The Engine is already turned off!");
+            }
+            else
+            {
+                isEngineOn = false;
+                Console.WriteLine("The Engine is now off!");
+            }
+        }
+
+        public virtual void Drive(double distance)
         {
 
-        }
-        /*
-        virtual void Drive(double distance)
-        {
+            Console.WriteLine("What is the length of your trip?: ");
+            distance = Convert.ToDouble(Console.ReadLine());
+            odometer += distance;
 
         }
-        */
+
+        public void StartEngine()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void StopEngine()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+}   
     
 
-}
+
